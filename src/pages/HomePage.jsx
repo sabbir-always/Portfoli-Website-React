@@ -1,28 +1,24 @@
-import React, { useEffect } from 'react'
 import WebLayouts from '../layouts/WebLayouts'
-import ProjectComponents from '../components/projects/ProjectComponents'
-import { FaNode, FaFigma, FaRegEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import { FaNode, FaFigma, FaRegEnvelope, FaPhoneAlt, FaRegFolder } from 'react-icons/fa';
 import { BiLogoTypescript, BiSolidCreditCardFront, BiSupport } from "react-icons/bi";
-import { CgWebsite } from "react-icons/cg";
-import { LuDatabaseZap } from "react-icons/lu";
 import { RiReactjsLine, RiNextjsLine } from "react-icons/ri";
-import { useCommonContext } from '../context/CommonContext';
-import { BsWindowFullscreen } from "react-icons/bs";
-import { IoIosOptions } from "react-icons/io";
 import { HiMiniArrowTrendingUp } from "react-icons/hi2";
 import { SiMongodb, SiExpress } from "react-icons/si";
+import { BsWindowFullscreen } from "react-icons/bs";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdArchitecture } from "react-icons/md";
+import { LuDatabaseZap } from "react-icons/lu";
+import { IoIosOptions } from "react-icons/io";
 import { GoArrowRight } from "react-icons/go";
+import { CgWebsite } from "react-icons/cg";
+import { FiGithub } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import HERO_IMAGE from '../assets/hero-image.png';
 import MERN_IMAGE from '../assets/mern-logo.png';
 import './HomePage.css';
 
 const HomePage = () => {
-    const { projects, fetchProjectsData } = useCommonContext();
-    useEffect(() => { fetchProjectsData() }, ['']);
 
     return (
         <WebLayouts>
@@ -271,14 +267,114 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {projects?.data?.length > 0 && (
-                            projects.data.map((item, index) => (
-                                <div className="col-md-3 mb-4" key={index}><ProjectComponents data={item} /></div>
-                            ))
-                        )}
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>eCommerce Website</Link>
+                                    <p className='project_card_subheadline'>Full-featured eCommerce platform with cart, checkout, and admin panel.</p>
+                                    <p className='project_card_miniheadline'>React, Node.js, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Portfolio Website</Link>
+                                    <p className='project_card_subheadline'>Personal portfolio website to showcase projects and skills.</p>
+                                    <p className='project_card_miniheadline'>React, Tailwind CSS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Blog Application</Link>
+                                    <p className='project_card_subheadline'>Blog platform with user authentication and CRUD operations.</p>
+                                    <p className='project_card_miniheadline'>Next.js, Node.js, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Task Management App</Link>
+                                    <p className='project_card_subheadline'>Task management system with status tracking and deadlines.</p>
+                                    <p className='project_card_miniheadline'>React, Express.js, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Chat Application</Link>
+                                    <p className='project_card_subheadline'>Real-time chat application with user login and messaging.</p>
+                                    <p className='project_card_miniheadline'>React, Node.js, Socket.io</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Learning Management System</Link>
+                                    <p className='project_card_subheadline'>Online learning platform with courses and student dashboard.</p>
+                                    <p className='project_card_miniheadline'>React, Node.js, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Restaurant Management System</Link>
+                                    <p className='project_card_subheadline'>Restaurant system with menu, orders, and admin control.</p>
+                                    <p className='project_card_miniheadline'>React, Node.js, MySQL</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 mb-4">
+                            <div className='project_card_holder border border-dark'>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className='project_card_folder_icon'><FaRegFolder /></div>
+                                    <a href='https://github.com/' target='_new' className='project_card_github_icon'><FiGithub /></a>
+                                </div>
+                                <div className='project_card_content'>
+                                    <Link to='' className='project_card_headline'>Authentication System</Link>
+                                    <p className='project_card_subheadline'>Secure authentication system with JWT and role-based access.</p>
+                                    <p className='project_card_miniheadline'>Node.js, Express.js, MongoDB</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
+
             {/* --- CONTACT SECTION --- */}
             <section className='contact_section'>
                 <div className="container">
