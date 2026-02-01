@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "eCommerce Website",
+            "description": "Full-featured eCommerce platform with cart, checkout, and admin panel.",
+            "language": "React, Node.js, MongoDB",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 2,
+            "name": "Portfolio Website",
+            "description": "Personal portfolio website to showcase projects and skills.",
+            "language": "React, Tailwind CSS",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 3,
+            "name": "Blog Application",
+            "description": "Blog platform with user authentication and CRUD operations.",
+            "language": "Next.js, Node.js, MongoDB",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 4,
+            "name": "Task Management App",
+            "description": "Task management system with status tracking and deadlines.",
+            "language": "React, Express.js, MongoDB",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 5,
+            "name": "Chat Application",
+            "description": "Real-time chat application with user login and messaging.",
+            "language": "React, Node.js, Socket.io",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 6,
+            "name": "Learning Management System",
+            "description": "Online learning platform with courses and student dashboard.",
+            "language": "React, Node.js, MongoDB",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 7,
+            "name": "Restaurant Management System",
+            "description": "Restaurant system with menu, orders, and admin control.",
+            "language": "React, Node.js, MySQL",
+            "github": "https://github.com/"
+        },
+        {
+            "id": 8,
+            "name": "Authentication System",
+            "description": "Secure authentication system with JWT and role-based access.",
+            "language": "Node.js, Express.js, MongoDB",
+            "github": "https://github.com/"
+        }
+    ]
+}
