@@ -228,7 +228,7 @@
 
 /* --- TECH STACK AND EXPERTISE --- */
 .tech_stack_experties {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .tech_stack_box {
@@ -273,7 +273,7 @@
 
 /* --- SERVICE SECTION --- */
 .service_section {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .service_card_holder {
@@ -326,7 +326,7 @@
 
 /* --- PROJECT SECTION --- */
 .project_section {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .project_card_holder {
@@ -396,7 +396,7 @@
 
 /* --- CONTACT SECTION --- */
 .contact_section {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .form_label {
@@ -479,12 +479,10 @@
 }
 
 
-
-
-
 @media only screen and (max-width: 576px) {
     .home_section {
         height: 100vh;
+        margin-bottom: 30px;
     }
 
     .home_section_headline {
@@ -507,5 +505,80 @@
         left: 40%;
         max-width: 50%;
         transform: translateX(-40%);
+    }
+
+    /* --- ABOUT EXPRIENCE --- */
+    .about_experience {
+        margin-bottom: 80px;
+    }
+
+    .about_experience_count {
+        font-size: 25px;
+    }
+
+    .about_experience_text {
+        font-size: 14px;
+    }
+
+    /* --- ABOUT SECTION --- */
+    .about_section {
+        margin-bottom: 80px;
+    }
+
+    .about_section_headline {
+        font-size: 20px;
+    }
+
+    .about_section_subheadline {
+        font-size: 14px;
+    }
+
+    .about_card_reviews {
+        justify-content: center;
+    }
+
+    .about_card_review_box {
+        padding: 20px;
+    }
+
+    .about_card_review_subheadline {
+        text-align: center;
+    }
+
+    /* --- TECH STACK AND EXPERTISE --- */
+    .tech_stack_experties {
+        margin-bottom: 80px;
+    }
+
+    /* --- SERVICE SECTION --- */
+    .service_section {
+        margin-bottom: 80px;
+    }
+
+    /* --- PROJECT SECTION --- */
+    .project_section {
+        margin-bottom: 80px;
+    }
+
+    /* --- CONTACT SECTION --- */
+    .contact_section {
+        margin-bottom: 50px;
+    }
+
+    .contact_btn {
+        width: 100%;
+    }
+
+    .contact_holder {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .contact_holder_icon {
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
     }
 }

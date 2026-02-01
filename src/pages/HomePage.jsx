@@ -55,25 +55,25 @@ const HomePage = () => {
             <section className='about_experience'>
                 <div className="container">
                     <div className="row border border-dark">
-                        <div className="col-md-3">
-                            <div className="about_experience_count_holder border-end border-dark">
+                        <div className="col-6 col-md-3">
+                            <div className="about_experience_count_holder border-sm-end border-dark">
                                 <h4 className='about_experience_count'>03+</h4>
                                 <p className='about_experience_text'>Years of Experience</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="about_experience_count_holder border-end border-dark">
+                        <div className="col-6 col-md-3">
+                            <div className="about_experience_count_holder border-sm-end border-dark">
                                 <h4 className='about_experience_count'>20+</h4>
                                 <p className='about_experience_text'>Completed Projects</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="about_experience_count_holder border-end border-dark">
+                        <div className="col-6 col-md-3">
+                            <div className="about_experience_count_holder border-sm-end border-dark">
                                 <h4 className='about_experience_count'>15+</h4>
                                 <p className='about_experience_text'>Happy Clients</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-6 col-md-3">
                             <div className="about_experience_count_holder">
                                 <h4 className='about_experience_count'>10+</h4>
                                 <p className='about_experience_text'>Technologies Used</p>
@@ -97,7 +97,7 @@ const HomePage = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-6 my-4 my-sm-0">
                                     <div className='about_card_holder border border-dark'>
                                         <div className='about_card_folder_icon'><MdArchitecture /></div>
                                         <span className='about_card_headline'>Scalable Architecture</span>
@@ -145,49 +145,49 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><SiMongodb /></div>
                                 <span className='tech_stack_name'>MongoDB</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><SiExpress /></div>
                                 <span className='tech_stack_name'>Express JS</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><RiReactjsLine /></div>
                                 <span className='tech_stack_name'>React Js</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><FaNode /></div>
                                 <span className='tech_stack_name'>Node Js</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><RiNextjsLine /></div>
                                 <span className='tech_stack_name'>Next Js</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><BiLogoTypescript /></div>
                                 <span className='tech_stack_name'>TypeScript</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><TbBrandReactNative /></div>
                                 <span className='tech_stack_name'>Native</span>
                             </div>
                         </div>
-                        <div className="col-md-1 g-md-1">
+                        <div className="col-4 col-md-1 mb-3 mb-sm-0 g-md-1">
                             <div className="tech_stack_box border border-dark">
                                 <div className='tech_stack_icon'><FaFigma /></div>
                                 <span className='tech_stack_name'>Figma</span>
@@ -223,21 +223,21 @@ const HomePage = () => {
                                 <p className='service_card_subheadline'>Clean, fast, and interactive user interfaces built with modern technologies for the best user experience.</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-4 mb-sm-0">
                             <div className='service_card_holder border border-dark'>
                                 <div className='service_card_icon'><LuDatabaseZap /></div>
                                 <h2 className='service_card_headline'>Backend Development</h2>
                                 <p className='service_card_subheadline'>Secure and scalable backend solutions to power your applications and manage data efficiently.</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-4 mb-sm-0">
                             <div className='service_card_holder border border-dark'>
                                 <div className='service_card_icon'><BsWindowFullscreen /></div>
                                 <h2 className='service_card_headline'>Full-Stack Solutions</h2>
                                 <p className='service_card_subheadline'>Complete end-to-end web solutions combining frontend, backend, and database integration.</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-4 mb-sm-0">
                             <div className='service_card_holder border border-dark'>
                                 <div className='service_card_icon'><IoIosOptions /></div>
                                 <h2 className='service_card_headline'>Website Optimization</h2>
@@ -387,7 +387,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 mb-5 mb-sm-0">
                             <div className="p-3 p-sm-4 border border-dark">
                                 <form className='row'>
                                     <div className="col-md-12 mb-3">
